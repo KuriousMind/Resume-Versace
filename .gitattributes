@@ -1,2 +1,47 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# IDE/Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Build artifacts
+dist/
+build/
+*.egg-info/
+*.pyc
+__pycache__/
+
+# Dependency directories
+node_modules/
+venv/
+env/
+
+# Log files
+*.log
+logs/
+
+# Environment files
+.env
+.env.local
+.env.development
+secrets.json
+credentials.json
+
+# Test/coverage reports
+.coverage
+htmlcov/
+.coverage.*
+.pytest_cache/
+coverage/
+
+# Local development
+*.local
+.cache
+.mypy_cache/
